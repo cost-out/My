@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+	background: #fff;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #1f2029;
+}
+
+body a {
+    outline: none!important;
+}
+
+nav {
+	display: block;
+}
+
+img {
+	vertical-align:middle;
+	border: 0;
+}
+
