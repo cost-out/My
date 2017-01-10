@@ -504,7 +504,7 @@ function enableSubmit(){
 if($("#User_agree_1").is(":checked") && $("#User_agree_2").is(":checked"))
 $("input[type=submit]").removeAttr("disabled").removeClass("disabled");
 else
-$("button[type=submit]").attr("disabled","disabled").addClass("disabled");
+$("input[type=submit]").attr("disabled","disabled").addClass("disabled");
 };
 enableSubmit();
 $("button.ui-datepicker-current").live("click", function(){
