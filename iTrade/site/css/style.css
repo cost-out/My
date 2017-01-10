@@ -857,6 +857,20 @@ footer .steps20 ul li a:hover {
     color: #333;
 }
 
+.item-list .item .input-block.error input {
+	border: 1px solid #dda7a2;
+    background: #fdefef;
+}
+
+.item-list .item .success input {
+	border: 1px solid #a4c98b;
+	background: #fff;
+}
+
+.item-list .item .input-block input:focus {
+	border: 1px solid #a4c98b;
+}
+
 .item-list .item .input-block select {
     border: 1px solid #e4e4e4;
     height: 30px;

@@ -46,6 +46,8 @@
     <!-- Styles -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
 </head>
 	<header id="header">
     	<div class="header-top">
@@ -502,7 +504,7 @@ function enableSubmit(){
 if($("#User_agree_1").is(":checked") && $("#User_agree_2").is(":checked"))
 $("input[type=submit]").removeAttr("disabled").removeClass("disabled");
 else
-$("input[type=submit]").attr("disabled","disabled").addClass("disabled");
+$("button[type=submit]").attr("disabled","disabled").addClass("disabled");
 };
 enableSubmit();
 $("button.ui-datepicker-current").live("click", function(){
