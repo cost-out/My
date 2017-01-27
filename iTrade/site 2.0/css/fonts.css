@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Elektra Medium Pro Regular';
+    src: url('../font/elektramedium-webfont.eot');
+    src: url('../font/elektramedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/elektramedium-webfont.woff2') format('woff2'),
+         url('../font/elektramedium-webfont.woff') format('woff'),
+         url('../font/elektramedium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
